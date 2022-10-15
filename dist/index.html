@@ -8,9 +8,21 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+   
     <div class = "header" > <img src="images/listicon.svg" alt="To-do List Logo" id ="listlogo"> Todo List </div>
     <div id="content"> </div>
+   
+    <div class = "sidebar">
+        <div class = "home"> Home</div>
+        <div class = "today"> Today</div>
+        <div class = "week"> Week </div>    
+        <div class = "project"> Projects </div>    
+        <div class = "addbtn"> + Add Task </div>
+    </div>
+
+    <div class = "bigformContainer">
     <div class = "formContainer">
+        <div class = "closebtn"> X </div>
     <form action=" ">
         <label for="title">Title </label><br>
         <input type="text" id="title" name="title" value="" ><br>
@@ -31,6 +43,7 @@
         
         <input type="submit" value="Submit">
       </form>
+    </div>
     </div>
 
     <script src="main.js"></script>

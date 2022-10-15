@@ -1,0 +1,1 @@
+(()=>{const e=document.querySelector(".formContainer"),n=document.querySelector(".closebtn"),t=document.querySelector(".addbtn");window.addEventListener("click",(n=>{n.target==e&&(e.style.display="none")})),n.addEventListener("click",(()=>{e.style.display="none"})),t.addEventListener("click",(()=>{e.style.display="inline-block"}))})();
