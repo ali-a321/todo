@@ -58,10 +58,10 @@ body {
 
 
 .sidebar{
-    position: absolute;
+    position: fixed;
     top: 6.5rem;
     width: 11.5rem;
-    height: 70vh;
+    height: 80%;
     font-size: 1.2rem;
     background-color: whitesmoke;
     padding-top: 1.5rem;
@@ -101,11 +101,21 @@ body {
 
 .addbtn{
   position: relative;
-  top: 6rem;
+  top: 2rem;
   cursor: pointer;
   color: green;
     }
-
+.submitbtn{
+    width: 4rem;
+    height: 2rem;
+}
 .project{
     font-weight: bold;
+}
+
+#content{
+    position: relative;
+    top:8.5rem;
+    left: 15rem;
+    max-width: fit-content;
 }

@@ -10,13 +10,20 @@
 <body>
    
     <div class = "header" > <img src="images/listicon.svg" alt="To-do List Logo" id ="listlogo"> Todo List </div>
-    <div id="content"> </div>
+    <div id="content" class = "content"> Home</div>
    
     <div class = "sidebar">
         <div class = "home"> Home</div>
         <div class = "today"> Today</div>
-        <div class = "week"> Week </div>    
-        <div class = "project"> Projects </div>    
+        <div class = "week"> Week </div>
+        <div class="projectcontainer">   
+        <div class = "project"> Tasks </div>
+            <div class="spiritual"> Spirtual</div>
+            <div class="health"> Health</div>
+            <div class="family"> Family</div>
+            <div class="work"> Work</div>
+            <div class="chores"> Chores</div>
+        </div>    
         <div class = "addbtn"> + Add Task </div>
     </div>
 
@@ -25,11 +32,11 @@
         <div class = "closebtn"> X </div>
     <form action=" ">
         <label for="title">Title </label><br>
-        <input type="text" id="title" name="title" value="" ><br>
+        <input type="text" id="title" name="title"  ><br>
         <label for="description"> Description</label><br>
-        <input type="text" id="description" name="description" value="" ><br>
+        <input type="text" id="description" name="description" ><br>
         <label for="duedate"> Due Date</label><br>
-        <input type="date" id="duedate" name="duedate" value="" ><br>
+        <input type="date" id="duedate" name="duedate" ><br>
        <h3> Priority </h3>
         <label for="lowPriority"> Low Priority</label>
         <input type="radio" id="lowPriority" name="lowPriority" value="lowPriority">
@@ -41,7 +48,7 @@
         <input type="radio" id="highPriority" name="highPriority" value="highPriority"><br><br>
         
         
-        <input type="submit" value="Submit">
+        <button class = "submitbtn" > Submit </button>
       </form>
     </div>
     </div>
