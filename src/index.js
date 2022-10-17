@@ -44,11 +44,11 @@ console.log("hello")
 
 function render(){
     listOfTasks.forEach((submission) => {
-        const newTask = document.createElement("article");
+        const newTask = document.createElement("div");
         newTask.innerHTML = 
         `<p> ${submission.title} </p>
-        <p> by ${submission.description} </p>
-        <p> ${submission.date} pages</p>
+        <p> ${submission.description} </p>
+        <p> ${submission.date} </p>
         <p> ${submission.priority} </p> `;
         document.querySelector(".content").appendChild(newTask);
         console.log("hello")
